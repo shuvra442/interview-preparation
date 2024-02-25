@@ -8,7 +8,7 @@ import java.util.List;
 public class LargestAndSmallestInArray {
     public static void main(String[] args) {
         int arr[] ={-12,-34,-45,23,45,23,22,10000,23342,5545};
-        int n= arr.length;
+//        int n= arr.length;
 //        1. using arrays.sort()
 //        Arrays.sort(arr);
 //        int min=arr[0];
@@ -17,11 +17,11 @@ public class LargestAndSmallestInArray {
 //        System.out.println(max);
 
 //        2. Using stream
-        int min = Arrays.stream(arr).min().getAsInt();
-        int max = Arrays.stream(arr).max().getAsInt();
-
-        System.out.println(min);
-        System.out.println(max);
+//        int min = Arrays.stream(arr).min().getAsInt();
+//        int max = Arrays.stream(arr).max().getAsInt();
+//
+//        System.out.println(min);
+//        System.out.println(max);
 
 
 //        3.
