@@ -28,7 +28,7 @@ public class DuplicateElement {
         Set<String> store = new HashSet<String>();
 
         for (String string : str){
-            if (store.add(string)==false){
+            if (!store.add(string)){
                 System.out.println(string);
             }
         }

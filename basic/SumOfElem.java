@@ -13,8 +13,8 @@ public class SumOfElem {
         System.out.println(sum);
 
 //        2nd approach
-        int arrysSum= Arrays.stream(arr).sum();
-        System.out.println(arrysSum);
+        int arraysSum= Arrays.stream(arr).sum();
+        System.out.println(arraysSum);
 
     }
 }
