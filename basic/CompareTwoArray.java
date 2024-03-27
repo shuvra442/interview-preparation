@@ -19,14 +19,11 @@ public class CompareTwoArray {
 
 //        2nd approach
         boolean status = true;
-        if(a.length==b.length){
-            for(int i=0;i<a.length;i++){
-                if (a[i] != b[i]){
-                    status = false;
-                }
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] != b[i]) {
+                status = false;
+                break;
             }
-        } else {
-            status = false;
         }
 
         if (status){
